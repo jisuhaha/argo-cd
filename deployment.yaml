@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapplication
+  labels:
+    app: webapplication
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: webapplication
+  template:
+    metadata:
+      labels:
+        app: webapplication
+    spec:
+      containers:
+      - name: webapplication
+        image: 707677861059.dkr.ecr.ap-northeast-2.amazonaws.com/nadeuri:9ad894da043ac27d7d759f9858c6a45db0ad1a7e
+        ports:
+        - containerPort: 8080
