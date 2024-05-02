@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: webapplication
-        image: /nadeuri:03c70e8cff201aef266cca26a0210696b4e5bdf8
+        image: /nadeuri:469d77c47a127da1f60e4fa6b22238a687dd97b5
         ports:
         - containerPort: 8080
