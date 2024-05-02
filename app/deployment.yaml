@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: webapplication
-        image: 707677861059.dkr.ecr.ap-northeast-2.amazonaws.com/nadeuri:29d401f16fb099c1f6a1bd2e1689ec1ec7bafe36
+        image: 707677861059.dkr.ecr.ap-northeast-2.amazonaws.com/nadeuri:4d1e64c651f5f5a65f9a2f95396a10f076e5f0fa
         ports:
         - containerPort: 8080
