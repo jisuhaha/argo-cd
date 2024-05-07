@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: rds-service
+spec:
+  type: ExternalName
+  externalName: prod-db.cht164hsctoz.us-west-2.rds.amazonaws.com
