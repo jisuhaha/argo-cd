@@ -19,3 +19,6 @@ spec:
         image: 707677861059.dkr.ecr.ap-northeast-2.amazonaws.com/nadeuri:291dcdf62fd1f85fcc750640bf809c08b0f78d3a
         ports:
         - containerPort: 8080
+        env:
+        - name: RDS_HOST
+          value: 'nadeuri.cjmzv5lqdvxo.us-east-2.rds.amazonaws.com'
