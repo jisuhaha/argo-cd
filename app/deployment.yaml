@@ -21,4 +21,4 @@ spec:
         - containerPort: 8080
         env:
         - name: RDS_HOST
-          value: 'prod-db.cht164hsctoz.us-west-2.rds.amazonaws.com'
+          value: rds-service
