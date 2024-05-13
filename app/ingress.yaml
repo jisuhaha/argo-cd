@@ -7,6 +7,7 @@ metadata:
       alb.ingress.kubernetes.io/target-type: ip
       alb.ingress.kubernetes.io/group.name: webapplication
       alb.ingress.kubernetes.io/group.order: '1'
+      alb.ingress.kubernetes.io/target-group-attributes: 'client_ip_preservation.enabled=true'
 spec:
     ingressClassName:  alb
     rules:
